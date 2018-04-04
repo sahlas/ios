@@ -1,0 +1,22 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'BCOVCoreVideoPlayer' do
+	pod 'BCOVPlayerSDK-uitest', :git => 'git@bithub.brightcove.com:videocloud/agave.git', :branch => 'develop'
+	pod 'BCOVOUX-uitest', :git => 'git@bithub.brightcove.com:videocloud/agave.git', :branch => 'develop'
+end
+
+# target 'BCOVCoreVideoPlayer' do
+# 	pod 'BCOVPlayerSDK', :path => '../../agave/src/core'
+# 	pod 'BCOVOUX', :path => '../../agave/src/onceux'
+# end
+
+
+# Set the pod location to the public CocoaPods repo OR set it to the TC validation repo.
+source 'https://github.com/brightcove/BrightcoveSpecs.git'
+# source 'ssh://git@tcmac04.vidmark.local/Users/git/preflight/BrightcoveSpecs.git'
+#
+# target 'BCOVCoreVideoPlayer' do
+# 	pod 'Brightcove-Player-Core'
+# # 	pod 'Brightcove-Player-Core/dynamic'
+# end

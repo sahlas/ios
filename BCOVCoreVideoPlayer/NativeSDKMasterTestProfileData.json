@@ -1,0 +1,310 @@
+
+{
+   "testOptions" :
+   {
+      "kProductionAnalyticsUrl":"http://metrics.brightcove.com/tracker",
+      "kDefaultEnvironmentOptionSection":"production",
+      "kDefaultSecurityLevelOptionSelection":"clear",
+      "kDefaultDeliveryTypeOptionSelection":"ynamic_delivery",
+      "kFairPlayPublisherId":"26abd0b8-1e0f-4ec5-83ca-30d1a0b6e2e5",
+      "kFairPlayApplicationId":"197a5c6f-faa2-4d22-9e23-63e2149816e3",
+      "kEnvironment":["production", "staging","qa"],
+      "kSecurityLevel":["clear", "hlse", "drm"],
+      "kSecurityType":["fairplay", "widevine"],
+      "kDeliveryType":["dynamic_elivery", "legacy_video_cloud", "cae"],
+      "kAdType":["ssai", "oux", "ima","fw"],
+      "kPlaybackApiBaseUrl":{
+               "production": "https://edge.api.brightcove.com/playback/v1",
+               "staging": "https://edge.staging.api.brightcove.com/playback/v1",
+               "qa": "https://edge.qa.api.brightcove.com/playback/v1"
+            },
+      "kOuxAssets":[
+            {
+               "ouxAssetName":  "Plato: 1xPre/1xMid/1xPost - Skippable Ads",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/starbuckstwo-hls_skippable_ads.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: 1xPre/1xMid/1xPost - Starbucks MP4",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/starbuckstwo.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: 1xPre/1xMid/1xPost - Starbucks HLS",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/starbuckstwo-hls.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: VMAP Extensions Positive Case",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/vmap_extensions_positive_path.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: VMAP Duplicate Extensions",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/vmap_duplicate_extensions.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: VMAP Empty Extensions Parent Tag",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/vmap_empty_extensions_parent_tag.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: VMAP Empty Extension Child Tags",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/vmap_empty_extension_child_tags.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: VMAP Extensions Duplicate Parameters",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/vmap_extensions_duplicate_parameter_tags.handlebars"
+            },
+            {
+               "ouxAssetName":  "Plato: VMAP Extensions No Parameters",
+               "ouxAssetUrl":  "http://10.1.10.108:9090/formats/OnceUX/vmap_extensions_no_parameter_tags.handlebars"
+            },
+            {
+               "ouxAssetName":  "No ads",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/ccdc07cb-4c0e-499c-816b-bf6c00478021/e67ca21b-8647-46af-bc9d-d18b68f8ad70/content.once"
+            },
+            {
+               "ouxAssetName":  "DynAds: 1xPre(skipad)/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/af0724c9-a012-4461-962e-7f9bff844501/e67ca21b-8647-46af-bc9d-d18b68f8ad70/content.once"
+            },
+            {
+               "ouxAssetName":  "DynAds: 1xPre(non-skip)/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/54bcea5f-40a0-4f58-84ec-16b41acd8489/e67ca21b-8647-46af-bc9d-d18b68f8ad70/content.once"
+            },
+            {
+               "ouxAssetName":  "DynAds: 1xPost(skipad)/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/aaeb2555-2c2f-4d62-b74a-f114027f53b1/e67ca21b-8647-46af-bc9d-d18b68f8ad70/content.once"
+            },
+            {
+               "ouxAssetName":  "DynAds: 5xPre/5xMid@500s/5xMid@1000s/5xPost@1500s/webvtt(iOS)/DFXP(Android)/long-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/b8a3ee12-5c87-4038-813f-a3b4f549a028/27514e8e-19fc-4a72-af91-f37ef9ea04aa/content.once?enabletimedtext=true"
+            },
+            {
+               "ouxAssetName":  "StaticAds: 1xPre/1xMid/1xPost/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/0187c20c-87a9-412c-bf53-da5afa1fea2b/0ee439fa-82cb-4d0d-865f-1136c589ccbf/content.once"
+            },
+            {
+               "ouxAssetName":  "StaticAds: 1xPost(skip%based)/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/7fbe8ac2-fa0a-46fd-bf41-0265ffcc545f/e67ca21b-8647-46af-bc9d-d18b68f8ad70/content.once"
+            },
+            {
+               "ouxAssetName":  "StaticAds: 1xPre/1xMid@29s/1xPost/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/9ae2ae69-9e5c-4bd4-9618-dafd68a06d28/39dffd5c-0443-4965-ac78-f3baae83d688/content.once"
+            },
+            {
+               "ouxAssetName":  "StaticAds: 2xPre/3xMid@30s/3xmid@90s/1xPost/long-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/7ef2a638-f85e-4251-9421-611e8e7434b2/61ef48b8-1637-412d-a926-3570a68359ec/content.once"
+            },
+            {
+               "ouxAssetName":  "AES128 Content Enabled No Ads/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/e56f1592-ca32-46ec-915e-56355ebb0d70/a8311878-19c3-42fe-a5fd-912c9c29c087/content.once"
+            },
+            {
+               "ouxAssetName":  "AES128 Content Enabled, AES128 Ads Disabled: 1xPre/1xMid@30/1xMid@120/1xPost/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/bdb6267a-9c01-42b5-9850-5f6092b91662/70ab971e-07c8-4b1d-a2ae-d7c077751207/content.once"
+            },
+            {
+               "ouxAssetName":  "AES128 Content and Ads Enabled: 1xPre/1xMid@30/1xMid@120/1xPost/short-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/5c3c0997-5255-4d05-a7e0-fce97a466f3d/b00d0eb3-cd2b-4a59-a63f-da5f51d8ed6c/content.once"
+            },
+            {
+               "ouxAssetName":  "AES128 Content DynAds: 2xPre/2xMid@362s/2xMid@721s/1xPost/long-form",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/202ef8bb-0d9d-4f6f-bd18-f45aa3010fe6/8a146f45-9fac-462e-a111-de60ec96198b/content.once"
+            },
+            {
+               "ouxAssetName":  "VMAP 404",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/da58aa4c-f42b-46af-b6a3-a1f1e236b674/e67ca21b-8647-46af-bc9d-d18b68f8ad70/content.once"
+            },
+            {
+               "ouxAssetName":  "VMAP 403",
+               "ouxAssetUrl":  "http://once.unicornmedia.com/now/ads/vmap/od/auto/c501c3ee-7f1c-4020-aa6d-0b1ef0bbd4a9/25c27705-816c-4c40-8b1a-456625a864b0/e67ca21b-8647-46af-bc9d-d18b68f8ad70/content.once"
+            }
+      ]
+   },
+   "video_cloud" :
+   {
+      "production":
+      {
+         "drm":[
+            {
+               "dynamic_delivery": {
+                  "description":"App Science Bolt DRM",
+                  "accountId":"3636334164001",
+                  "policyKey":"BCpkADawqM04pilWqSIDfTmwPNiBscekcQB9wQ3IiTUZ4baBIx6LyLTrACuS0KJPOlpeEui10NOSgQ8zPTk8iSRPkQXSCGBrEqJD_4vJtX31zRvnk-4Wq8svz8j6abVYnqTijMliCf_1lIoa",
+                  "defaultVideoRefId":"dynamic_origin_play_2017_keynote_3_min_3aud_3cap",
+                  "defaultPlaylistRefId":"offline_drm_playlist",
+                   "kPlaylistArray":[
+                     {
+                         "playlistRefId" : "ootb_tv_ui_testing",
+                         "playlistDescription" : "OOTB_TV_UI_Testing"
+                                  
+                     },
+                     {
+                         "playlistRefId" : "offline_drm_playlist",
+                         "playlistDescription" : "ODRM FairPlay Dash Playlist"
+                     }
+                  ],
+                   
+                  "kSsaiConfigs":[
+                     {
+                        "adConfigName": "bc_tech=dfpadrules&dur=1&pre=1&mid=2&midt=30,60&post=1",
+                        "adConfigId":"46065f14-eef7-403a-8f82-6f2b77137a66"
+                     },
+                     {
+                        "adConfigName": "uo_tech=vast&dur=30&pre=2&mid=2&midt=60&post=2",
+                        "adConfigId":"c0aec691-05bd-41b1-9e58-418385554c72"
+                     }, 
+                     {
+                        "adConfigName" : "uo_tech=vast&dur=60&vc=5",
+                        "adConfigId" : "519556c5-fae1-4c93-8f8e-50d1a9d031d6"
+                     },
+                     {
+                        "adConfigName" : "bc_tech=dfpadrules&dur=1&pre=2&mid=5&midt=85&post=2",
+                        "adConfigId" : "5b32c9a6-5af2-4f50-b51b-c6d08df5c4cf"
+                     },
+                     {
+                        "adConfigName" : "uo_tech=vast&dur=60&vc=5",
+                        "adConfigId" : "03b00b01-0ea1-45fc-bce6-059ecffe9d5b"
+                     },
+                     {
+                        "adConfigName" : "uo_tech=dfpadrules&dur=30&pre=2&mid=2&midt=60&post=2",
+                        "adConfigId" : "e3a987f3-25c6-417b-a5bc-b2e3c7f46d29"
+                     }     
+                  ]
+               },
+               "cae":{
+                  "description":"Native SDK Team CAE",
+                  "accountId":"5712514582001",
+                  "policyKey": "BCpkADawqM3-jgHYQJ1QqlwjSjKxwkEZ76idIhdbcpY3gXrwwqq4bsg9-vKsHOdlMFGMVn33VwTKfnHxgl2oORm_V7urzaN2r4utz7zHssDeB8KFPgWCs1KxTvBa6mctvvvrXfQBHdJUYLTz",
+                  "defaultVideoRefId":"dynamic_origin_drm_cae_big_buck_bunny",
+                  "defaultPlaylistRefId":"dynamic_origin_cae_playlist",
+                  "kPlaylistArray":[
+                        {
+                             "playlistRefId" : "dynamic_origin_cae_playlist",
+                             "playlistDescription" : "cae test videos"
+                        }
+                        ],
+                  },
+               "legacy_vc":{
+                  "description":"App Science DRM",
+                  "accountId":"3742124955001",
+                  "policyKey":"BCpkADawqM2pxiY30jgFCTf3RE4sTNtvzxI2hvCkt8UoYAnM6deQi45BXMXw_SyWh4HDjR_SRYHVvUxyZRfT2T0zKhdU5zElytCFB8sgDW0UUGwpIU16AcYTKzhjqgxdf0lRn3ZO4T32-HbE",
+                  "defaultVideoRefId":"sonnet_fp_dash_cenc_remote_vtt_captions_en_de_ja",
+                  "defaultPlaylistRefId":"offline_drm_fairplay_playlist",
+                  "kPlaylistArray":[
+                     {
+                          "playlistRefId" : "video_cloud_drm_360_only",
+                          "playlistDescription" : "360 Playlist"
+                     },
+                     {
+                          "playlistRefId" : "offline_drm_fairplay_playlist",
+                          "playlistDescription" : "Offline DRM Testing"
+                     } 
+                     ],
+               },                  
+            }
+         ],
+
+      "clear":[
+            {
+               "dynamic_delivery": {
+                  "description":"App Science Bolt Non-DRM",
+                  "accountId":"4800266849001",
+                  "policyKey":"BCpkADawqM3n0ImwKortQqSZCgJMcyVbb8lJVwt0z16UD0a_h8MpEYcHyKbM8CGOPxBRp0nfSVdfokXBrUu3Sso7Nujv3dnLo0JxC_lNXCl88O7NJ0PR0z2AprnJ_Lwnq7nTcy1GBUrQPr5e",
+                  "defaultVideoRefId":"dynamic_origin_moose",
+                  "defaultPlaylistRefId":"dynamic_origin_bolt_only_playlist",
+                   
+                  "kPlaylistArray":[
+                       {
+                          "playlistRefId" : "dynamic_origin_bolt_only_playlist",
+                          "playlistDescription" : "Content Short to Long Run Times"
+                       },
+                       {
+                          "playlistRefId" : "ootb_tv_ui_testing",
+                          "playlistDescription" : "OOTB_TV_UI_Testing"
+                       }
+                  ],
+                  "kSsaiConfigs":[
+                      {
+                          "adConfigName" : "uo_tech=dfpadrules&dur=30&pre=1&mid=2&midt=30,60&post=1",
+                          "adConfigId" : "f04590df-9fc0-4dd0-84de-d80f2c865410"
+                      },
+                      {
+                          "adConfigName" : "bc_tech=vast&vc=3&dur=30&wrapper=1&wd=3",
+                          "adConfigId" : "bf566b93-fcb4-4387-a2e7-6c1f44ebb0df"
+                      },
+                      {
+                        "adConfigName" : "uo_tech=vast&vc=3&dur=30&wrapper=1&wd=3",
+                        "adConfigId" : "8f3baed5-9b2f-498a-aebb-594e2fb0f95a"
+                      },
+                      {
+                        "adConfigName" : "bc_tech=vast&dur=60&vc=5",
+                        "adConfigId" : "7a459d29-f511-4cbc-aab4-2ca36d1aa209"
+                      },
+                      {
+                        "adConfigName" : "bc_tech=dfpadrules&dur=1&pre=2&mid=3&midt=85&post=2",
+                        "adConfigId" : "fac212c5-26df-4195-86e6-ee55e89c8b2d"
+                      },
+                      {
+                        "adConfigName" : "uo_tech=dfpadrules&dur=1&pre=2&mid=5&midt=85&post=2",
+                        "adConfigId" : "bfc934da-f9ee-4eda-be50-c0cea755be04"
+                      },
+                      {
+                        "adConfigName" : "uo_tech=vast&dur=60&vc=5",
+                        "adConfigId" : "968476d4-88b7-4568-82ff-eff4af6068b0"
+                      },
+                      {
+                        "adConfigName" : "uo_tech=dfpadrules&dur=30&mid=1&midt=85&post=1",
+                        "adConfigId" : "e5082c74-a063-4bac-a694-5e10519ac907"
+                      }
+                  ]
+               },
+            "cae":{
+               "description":"Native SDK Team CAE",
+               "accountId":"5712514582001",
+               "policyKey": "BCpkADawqM3-jgHYQJ1QqlwjSjKxwkEZ76idIhdbcpY3gXrwwqq4bsg9-vKsHOdlMFGMVn33VwTKfnHxgl2oORm_V7urzaN2r4utz7zHssDeB8KFPgWCs1KxTvBa6mctvvvrXfQBHdJUYLTz",
+               "defaultVideoRefId":"dynamic_origin_drm_cae_big_buck_bunny",
+               "defaultPlaylistRefId":"dynamic_origin_hlse_bolt_only_playlist",
+               "kPlaylistArray":[
+                     {
+                          "playlistRefId" : "dynamic_origin_cae_playlist",
+                          "playlistDescription" : "cae test videos"
+                     }
+                     ],
+               },
+            "legacy_vc":{
+               "description":"App Science",
+               "accountId":"3636334163001",
+               "policyKey":"BCpkADawqM2NZcfpTGYMHaafJU597X9J0XTvw8CXZcMITep7BFNYHFKGz3XJQfYzudYCp9GWn3u18OQdlqJxSKFrIipF4Ndx9umqQ5EtUaAn_oTXaQgIs1lAe4-FciLISBFDCTAA3j2qALp8",
+               "defaultVideoRefId":"sonnet_mult_captions_english_default",
+               "defaultPlaylistRefId":"test_automation_2_videos",
+               "geoRestrictedVideoReferenceId":"playback_api_geo_restricted_no_us",
+               "kPlaylistArray":[
+                  {
+                       "playlistRefId" : "cuepoint_video_playlist",
+                       "playlistDescription" : "cuepoint videos"
+                  },
+                  {
+                       "playlistRefId" : "offline_drm_fairplay_playlist",
+                       "playlistDescription" : "Offline DRM Testing"
+                  }               
+                  ],
+               },
+            }
+         ],
+      "hlse":[
+         {
+            "dynamic_delivery":{
+               "description":"App Science Bolt HLSe",
+               "accountId":"5507778763001",
+               "policyKey":"BCpkADawqM3x4z3N6F-N-DHPxPnX_-0L-Tl7CiC-Oat8l7UzSX3dmJcKczaw_LZuWF5pZtr9rnD0u_hD57yLYP0i90DzhfPozmrBHTsAHoQfcK6yxwTgXdrEUCUnl9a7NJrZgL8PNCd9jswz",
+               "defaultVideoRefId":"tbbt_s10e01_multicaps_3_min_ver",
+               "defaultPlaylistRefId":"dynamic_origin_hlse_bolt_only_playlist",
+               "kPlaylistArray":[
+                  {
+                       "playlistRefId" : "dynamic_origin_hlse_bolt_only_playlist",
+                       "playlistDescription" : "dynamic_origin_hlse_bolt_only_playlist"
+                  }
+                  ],
+               },
+            }
+         ]
+      }
+   }
+}
